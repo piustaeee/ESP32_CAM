@@ -19,8 +19,8 @@ import logging
 import os
 
 # === KONFIGURASI ===
-BOT_TOKEN = "7792152468:AAHVnSc1fMMvK-1gIZ58vZZLMZTzQscEfb0"
-CHAT_ID = "7559596766"
+BOT_TOKEN = ""
+CHAT_ID = ""
 ESP32_IP = os.getenv("ESP32_IP", "http://192.168.43.145")
 FASTAPI_URL = os.getenv("FASTAPI_URL", "http://127.0.0.1:8000")
 
