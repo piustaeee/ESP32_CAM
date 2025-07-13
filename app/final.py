@@ -16,13 +16,13 @@ import numpy as np
 import io
 import re
 import logging
+import os
 
 # === KONFIGURASI ===
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 BOT_TOKEN = "7792152468:AAHVnSc1fMMvK-1gIZ58vZZLMZTzQscEfb0"
 CHAT_ID = "7559596766"
-ESP32_IP = "http://192.168.43.145"
-FASTAPI_URL = "http://192.168.43.8:8000"
+ESP32_IP = os.getenv("ESP32_IP", "http://192.168.43.145")
+FASTAPI_URL = os.getenv("FASTAPI_URL", "http://127.0.0.1:8000")
 
 logging.basicConfig(level=logging.INFO)
 

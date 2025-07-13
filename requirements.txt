@@ -1,10 +1,10 @@
 fastapi
 uvicorn
-python-telegram-bot
+python-telegram-bot[asyncio]
+pytesseract
+opencv-python-headless
+pillow
+python-multipart
 aiohttp
 requests
-opencv-python-headless
-pytesseract
 pyzbar
-Pillow
-python-multipart
