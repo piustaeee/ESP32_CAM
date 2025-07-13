@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-telegram-bot
+aiohttp
+requests
+opencv-python-headless
+pytesseract
+pyzbar
+Pillow
